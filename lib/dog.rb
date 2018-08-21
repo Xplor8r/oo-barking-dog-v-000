@@ -1,8 +1,5 @@
 class Dog
- def instance(name, bark)
-    @name = name
-    @bark = bark
-  end
+
   def name=(name)
     @name = name
   end
@@ -10,6 +7,6 @@ class Dog
     @name
   end
   def bark
-    "woof!"
+    puts "woof!"
   end
 end
